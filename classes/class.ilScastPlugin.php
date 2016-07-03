@@ -114,6 +114,13 @@ class ilScastPlugin extends ilRepositoryObjectPlugin {
 		}
 		$this->updateLanguages();
 	}
+
+    /**
+     * For Now: stub method that must be implemented
+     */
+    protected function uninstallCustom() {
+        return;
+    }
 }
 
 ?>
