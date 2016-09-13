@@ -90,6 +90,8 @@ class xscaGroupGUI {
 		// SET BOX WITH GROUPS
 		$temp->setCurrentBlock('group');
 		$temp->setVariable('GROUPS', $this->pl->txt('groups'));
+		$temp->setVariable('CREATE', $this->pl->txt('create'));
+
 		$temp->setVariable('SELECT_A_GROUP', $this->pl->txt('select_a_group'));
 		$temp->setVariable('CREATE_A_GROUP', $this->pl->txt('create_a_group'));
 		foreach ($groups as $group) {
@@ -134,6 +136,7 @@ class xscaGroupGUI {
 	private function buildGroupTemplate(&$tpl, $group) {
 		$tpl->setCurrentBlock('group');
 		$tpl->setVariable('GROUP', $this->pl->txt('group'));
+		$tpl->setVariable('DELETE_GROUP', $this->pl->txt('delete'));
 		$tpl->setVariable('GROUP_NAME', $group->getTitle());
 		$tpl->setVariable('GROUP_ID', $group->getId());
 		//Gruppenmitglieder sortieren

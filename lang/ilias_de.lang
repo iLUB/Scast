@@ -80,6 +80,8 @@ create_a_group#:#Bitte erstellen Sie zuerst eine Gruppe.
 crs_create_xsca#:#SWITCHCast Channel anlegen
 date#:#Datum
 delete_group_confirmation#:#Wollen Sie die Gruppe wirklich löschen?
+delete#:#Löschen
+create#:#Erstellen
 department#:#Department
 department_desc#:#How is the name of your department?
 discipline_0#:#Disziplin
