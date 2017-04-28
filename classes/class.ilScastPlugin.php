@@ -119,7 +119,7 @@ class ilScastPlugin extends ilRepositoryObjectPlugin {
      * For Now: stub method that must be implemented
      */
     protected function uninstallCustom() {
-        return;
+        return false;
     }
 }
 
